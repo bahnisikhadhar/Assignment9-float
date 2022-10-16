@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* general css */
+.clearfix::after,
+.clearfix::before {
+    content: "";
+    display: block;
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+header {
+    background-color: #c15355;
+    height: 100px;
+    width: 100%;
+    padding: 30px;
+    position: sticky;
+    top: 0px;
+}
+
+.assignment {
+    float: left;
+    color: white;
+}
+
+li {
+    display: inline;
+    float: right;
+}
+
+.anchor {
+    display: inline-block;
+    text-decoration: none;
+    width: 100px;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    font-style: 'Poppins', sans-serif;
+}
+
+.anchor:hover {
+    background-color: rgb(185, 70, 28);
+    padding: 20px;
+}
+
+.head_next {
+    background-color: #c15355;
+    height: 300px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 50px;
+}
+
+.first_line {
+    font-size: 4rem;
+}
+
+.container1 {
+    margin: 50px 180px;
+}
+
+.first_box {
+    float: left;
+    margin-right: 100px;
+}
+
+.second_line {
+    color: #c15355;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.btn {
+    margin-top: 20px;
+    width: 100px;
+    height: 40px;
+    background-color: #c15355;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #c63b3d;
+}
+
+.btn:active {
+    background-color: #ef7577;
+}
+
+.container2 {
+    margin-top: 100px;
+    height: 500px;
+    width: 100%;
+    background-color: #c15355;
+    color: white;
+}
+
+.above_line1 {
+    text-align: center;
+    padding-top: 60px;
+
+}
+
+.pic1 {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.outer {
+    margin: 50px 250px;
+}
+
+.second_box {
+    height: 300px;
+    width: 230px;
+    border: 1px solid white;
+    position: relative;
+    text-align: center;
+    padding-top: 40px;
+    margin-right: 20px;
+    float: left;
+
+}
+
+.logo {
+    height: 40px;
+    width: 150px;
+    position: absolute;
+    bottom: -20px;
+    right: -10px;
+    border-radius: 5px;
+}
+
+.above_line2 {
+    margin-top: 40px;
+    text-align: center;
+    color: #c15355;
+}
+
+.pic2 {
+    height: 200px;
+    width: 400px;
+}
+
+h3 {
+    color: #c15355;
+    margin-bottom: 10px;
+}
+
+.outer1 {
+    margin: 50px 200px 50px 250px;
+}
+
+.third_box {
+    float: left;
+    margin-right: 100px;
+}
+
+.last {
+    height: 600px;
+    border-bottom: 1px solid #cccccc;
+}
+
+.left {
+    float: left;
+    color: #cccccc;
+}
+
+.icon {
+    width: 40px;
+    height: 50px;
+    border-radius: 50%;
+    border-color: #c15355;
+}
+
+.arrow {
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+
+}
+
+footer {
+    padding: 10px;
+
+}
