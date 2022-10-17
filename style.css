@@ -22,6 +22,8 @@ header {
     padding: 30px;
     position: sticky;
     top: 0px;
+    z-index: 1000;
+    /* using z-index to stop overlapping of image icon boxes and header */
 }
 
 .assignment {
@@ -174,20 +176,29 @@ h3 {
     color: #cccccc;
 }
 
-.icon {
+/* .icon {
     width: 40px;
     height: 50px;
     border-radius: 50%;
     border-color: #c15355;
-}
+    background-color: gray;
+} */
 
 .arrow {
     position: fixed;
     right: 50px;
     bottom: 50px;
-
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #c15355;
+    background-color: #d6cccc;
+    text-align: center;
+    padding: 10px;
 }
-
+.fa-solid {
+    color: #c15355;
+}
 footer {
     padding: 10px;
 }
