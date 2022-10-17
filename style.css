@@ -190,5 +190,8 @@ h3 {
 
 footer {
     padding: 10px;
-
+}
+.fa-brands {
+    color: #c15355;
+    margin-right: 40px;
 }
